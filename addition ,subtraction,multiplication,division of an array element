@@ -1,0 +1,29 @@
+import numpy as np
+arr=np.array([1,2,3,4])
+print(arr[0]+arr[3])
+
+output:--
+5
+
+
+import numpy as np
+arr=np.array([1,2,3,4])
+print(arr[0]-arr[3])
+
+output:-
+-3
+
+import numpy as np
+arr=np.array([1,2,3,4])
+print(arr[0]*arr[3])
+
+output:-4
+
+
+
+import numpy as np
+arr=np.array([1,2,3,4])
+print(arr[0]/arr[3])
+
+output:-
+0.25
