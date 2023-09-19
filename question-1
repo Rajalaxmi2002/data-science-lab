@@ -1,0 +1,24 @@
+questioin:-write a program in python a library charges a fine for every book  returned late ,for first 5 days the fine is 50 paise's, for 6 to 10 days
+fine is 1 ruppe's  and above 10 days fine is 5rs .if you return the book after 30 days your mebership will be cancelled. write a program 
+to accept the number of day's the member is late to return the book and diplay the fine and the appropriate message?
+
+
+d=int(input("enter the number: "))
+if(d<=5):
+    print("you have fine 50 paisa")
+elif(6<=d<=10):
+    print("you have fine 1RS")
+elif(10<d<30):
+    print("you have fine 5RS")
+elif(d>30):
+    print("your membership will be cancelled")
+
+
+output:-enter the number: 31
+your membership will be cancelled
+
+enter the number: 12
+you have fine 5RS
+
+enter the number: 4
+you have fine 50 paisa
