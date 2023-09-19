@@ -1,0 +1,20 @@
+questin--> write a program  to calculate overtime pay of 10 employees.
+overtime is paid the rate of rs.12 per house for every house worked above 40 hours.
+assume that employee donot work for fractional part of an hour?
+
+
+h=int(input("enter the number of hour"))
+i=12
+if(h<=40):
+    print(" no over time hours")
+elif(h>=40):
+    j=h-40
+    print("paid",j*i)
+
+
+output:-
+enter the number of hour45
+paid 60
+
+enter the number of hour34
+ no over time hours
